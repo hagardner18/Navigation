@@ -14,6 +14,7 @@ struct ContentView: View {
                 Text("This is the root view 🌳")
                 NavigationLink(destination: secondView()) {
                     Text("Take me to the new view")
+                    // working on this project I'm a busy girl
                 }
 //                NavigationLink(destination: Text("You're on the second view!")) {
 //                    Text("click me!")
